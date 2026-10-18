@@ -1,0 +1,3 @@
+file_name,true_text,model_output,errors
+test_line.png,A buffer solution minimises pH changes on addition,"A buffer solution minimises , pH changes on addition",The model added a comma which wasn't presenttest_line.png,,"A buffer solution minimises , pH changes on addition",
+test_line.png,,"A buffer solution minimises , pH changes on addition",
