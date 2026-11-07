@@ -1,3 +1,3 @@
 file_name,true_text,model_output,errors
-test_line.png,A buffer solution minimises pH changes on addition,"A buffer solution minimises , pH changes on addition",The model added a comma which wasn't presenttest_line.png,,"A buffer solution minimises , pH changes on addition",
-test_line.png,,"A buffer solution minimises , pH changes on addition",
+test_line.png,A buffer solution minimises pH changes on addition,"A buffer solution minimises , pH changes on addition",The model got everything mostly right, but added a comma which wasn't present
+test_line_2.png,current value. Charlie says it is a flat number.,"aspect Valve-Charlie says it is a flat-week",The model got most of the words wrong
