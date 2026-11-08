@@ -2,8 +2,8 @@ from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 import torch
 
 def load_ocr_model():
-    processor = TrOCRProcessor.from_pretrained('microsoft/trocr-base-handwritten')
-    model = VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-base-handwritten')
+    processor = TrOCRProcessor.from_pretrained('microsoft/trocr-large-handwritten')
+    model = VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-large-handwritten')
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
     return processor, model, device
